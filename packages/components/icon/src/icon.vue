@@ -9,6 +9,11 @@ import { computed, CSSProperties } from "vue";
 import { createNamespace } from "@cjp-ui/utils/create";
 import { iconProps } from "./icon";
 
+// 需安装：unplugin-vue-define-options
+defineOptions({
+  name: "x-icon", // 定义组件的名字
+});
+
 // 使用bem规范
 const bem = createNamespace("icon");
 
