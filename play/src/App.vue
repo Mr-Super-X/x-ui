@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import Icon from "@cjp-ui/components/icon/src/icon.vue";
-
-console.log(Icon);
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <Icon></Icon>
+  <x-icon color="red" size="20">测试</x-icon>
 </template>
 
 <style scoped></style>
