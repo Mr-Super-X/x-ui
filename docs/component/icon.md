@@ -16,30 +16,30 @@ import { AccessibilitySharp } from '@vicons/ionicons5'
 </script>
 
 <div>
-  <c-icon :size="40" color="red">
+  <x-icon :size="40" color="red">
     <AccessibilitySharp />
-  </c-icon>
-  <c-icon :size="40" color="yellow">
+  </x-icon>
+  <x-icon :size="40" color="yellow">
     <AccessibilitySharp />
-  </c-icon>
+  </x-icon>
 </div>
 
 <div>
-  <c-icon :size="60" color="red">
+  <x-icon :size="60" color="red">
     <AccessibilitySharp />
-  </c-icon>
-  <c-icon :size="60" color="yellow">
+  </x-icon>
+  <x-icon :size="60" color="yellow">
     <AccessibilitySharp />
-  </c-icon>
+  </x-icon>
 </div>
 
 <div>
-  <c-icon :size="80" color="red">
+  <x-icon :size="80" color="red">
     <AccessibilitySharp />
-  </c-icon>
-  <c-icon :size="80" color="yellow">
+  </x-icon>
+  <x-icon :size="80" color="yellow">
     <AccessibilitySharp />
-  </c-icon>
+  </x-icon>
 </div>
 
 <details>
