@@ -1,0 +1,39 @@
+@use "config" as *; // 引入config.scss所有内容
+@forward "config"; // 导出config.scss中的变量
+
+// 生成bem规范，@mixin定义后通过@include使用
+
+// .x-icon-box
+@mixin b($block) {
+  $B: $namespace + "-" + $block;
+  .#{$B} {
+    @content;
+  }
+}
+
+// .x-icon__box
+@mixin e($element) {
+  @at-root {
+    #{& + $element-separator + $element} {
+      @content;
+    }
+  }
+}
+
+// .x-icon--primary
+@mixin m($modifier) {
+  @at-root {
+    #{& + $modifier-separator + $modifier} {
+      @content;
+    }
+  }
+}
+
+// .x-icon.is-xxx
+@mixin when($state) {
+  @at-root {
+    &.#{$state-prefix + $state} {
+      @content;
+    }
+  }
+}
