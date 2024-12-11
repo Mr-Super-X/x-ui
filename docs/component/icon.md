@@ -1,6 +1,6 @@
 # Icon 图标
 
-c-ui 推荐使用 [xicons](https://xicons.org/#/zh-CN) 作为图标库，你需要先安装它到你的项目中。
+x-ui 推荐使用 [xicons](https://xicons.org/#/zh-CN) 作为图标库，你需要先安装它到你的项目中。
 
 ```bash
 pnpm install @vicons/ionicons5
