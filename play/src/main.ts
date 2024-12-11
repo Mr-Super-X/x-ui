@@ -5,7 +5,7 @@ const app = createApp(App)
 
 // 引入icon组件
 import Icon from "@cjp-ui/components/icon"
-// import "@cjp-ui/theme/src/index.scss"
+import "@cjp-ui/theme/src/index.scss"
 
 const plugins = [
   Icon,
