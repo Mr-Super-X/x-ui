@@ -1,0 +1,4 @@
+packages:
+  - play # 组件演示
+  - docs # 组件文档
+  - "packages/**" # 指定packages下的所有目录都是依赖包
