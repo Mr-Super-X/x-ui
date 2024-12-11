@@ -1,0 +1,13 @@
+@use "./mixins/mixins.scss" as *; // 导入Bem规范
+
+// 使用Bem规范定义icon，跟组件文件夹名保持一致即可
+@include b(icon) {
+  width: 1em;
+  height: 1em;
+  line-height: 1em;
+  display: inline-flex;
+  vertical-align: middle;
+  svg.loading {
+    animation: transform 1s linear infinite;
+  }
+}
