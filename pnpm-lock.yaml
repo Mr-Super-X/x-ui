@@ -8,12 +8,27 @@ importers:
 
   .:
     dependencies:
+      '@cjp-ui/components':
+        specifier: workspace:*
+        version: link:packages/components
+      '@cjp-ui/theme':
+        specifier: workspace:*
+        version: link:packages/theme
+      '@cjp-ui/utils':
+        specifier: workspace:*
+        version: link:packages/utils
       typescript:
         specifier: ^5.7.2
         version: 5.7.2
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.2)
+
+  packages/components: {}
+
+  packages/theme: {}
+
+  packages/utils: {}
 
 packages:
 
